@@ -1,0 +1,17 @@
+Source: ros-fuerte-shape-tools
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-shape-msgs,ros-fuerte-catkin,ros-fuerte-common-msgs
+Homepage: http://www.ros.org/wiki/shape_tools
+Standards-Version: 3.9.2
+
+Package: ros-fuerte-shape-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-shape-msgs,ros-fuerte-common-msgs
+Description: Tools for operating on shape messages.
+ .
+ This stack contains the packages:
+ * shape_utils: shape_utils
+ * shape_conversions: shape_conversions
+
