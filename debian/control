@@ -1,14 +1,14 @@
-Source: ros-fuerte-shape-tools
+Source: ros-groovy-shape-tools
 Section: misc
 Priority: extra
 Maintainer: Ioan Sucan <isucan@willowgarage.com>
-Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-catkin,ros-fuerte-common-msgs
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-common-msgs,ros-groovy-catkin
 Homepage: http://www.ros.org/wiki/shape_tools
 Standards-Version: 3.9.2
 
-Package: ros-fuerte-shape-tools
+Package: ros-groovy-shape-tools
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-common-msgs
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-common-msgs
 Description: Tools for operating on shape messages.
  .
  This stack contains the packages:
