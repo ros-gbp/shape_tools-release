@@ -14,8 +14,8 @@ tracks:
     release_inc: -1
     release_tag: :{version}
     ros_distro: groovy
-    vcs_type: hg
-    vcs_uri: https://kforge.ros.org/geometry/shape_tools
+    vcs_type: git
+    vcs_uri: git://github.com/ros-planning/shape_tools.git
     version: :{auto}
   fuerte:
     actions:
@@ -33,6 +33,6 @@ tracks:
     release_inc: '0'
     release_tag: :{version}
     ros_distro: fuerte
-    vcs_type: hg
-    vcs_uri: https://kforge.ros.org/geometry/shape_tools
+    vcs_type: git
+    vcs_uri: git://github.com/ros-planning/shape_tools.git
     version: :{ask}
