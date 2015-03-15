@@ -1,0 +1,12 @@
+Source: ros-jade-shape-tools
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-shape-msgs, ros-jade-visualization-msgs
+Homepage: http://www.ros.org/wiki/shape_tools
+Standards-Version: 3.9.2
+
+Package: ros-jade-shape-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-visualization-msgs
+Description: Tools for operating on shape messages.
